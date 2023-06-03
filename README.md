@@ -3,7 +3,7 @@
  <img width=200px height=200px src="https://i.imgur.com/6wj0hh6.jpg" alt="Project logo"></a>
 </p>
 
-<h3 align="center">Js_concurrency</h3>
+<h3 align="center">Javascript Concurrency example</h3>
 
 <div align="center">
 
