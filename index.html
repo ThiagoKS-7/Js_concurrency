@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>ByteBank</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="icon" type="image/x-icon" href="./favicon.ico">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./styles.css">
@@ -30,11 +30,30 @@
       <h2>Olá, Leandro! Estes são os detalhes da sua cotação:</h2>
     </header>
 
+    <article class="dadosEth">
+      <div class="grafico">
+        <div class="grafico__titulo">
+          <img class="grafico__ilustracao-eth" src="./imagens/eth.png" height="24px">
+          <h2>Variação do ETH desde o login</h2>
+        </div>
+        <div>
+          <canvas id="graficoEth"></canvas>
+        </div>
+      </div>
+
+      <div class="investimentos">
+        <h2>Valores da moeda</h2>
+        <ul class="investimentos__lista" id="dolar" data-eth>
+        </ul>
+      </div>
+      
+    </article>
+
     <article class="dadosDolar">
       <div class="grafico">
         <div class="grafico__titulo">
-          <span class="grafico__ilustracao-dolar"></span>
-          <h2 style="font-size: 3vh;">Variação da moeda desde o login</h2>
+          <img class="grafico__ilustracao-eth" src="./imagens/cifrao.png" height="24px">
+          <h2>Variação do Dólar desde o login</h2>
         </div>
         <div>
           <canvas id="graficoDolar"></canvas>
@@ -42,10 +61,11 @@
       </div>
 
       <div class="investimentos">
-        <h2 style="font-size: 3vh;">Valores da moeda</h2>
-        <ul class="investimentos__lista" id="dolar" data-lista>
+        <h2>Valores da moeda</h2>
+        <ul class="investimentos__lista" id="dolar" data-dol>
         </ul>
       </div>
+      
     </article>
 
     <footer class="rodape">
@@ -53,7 +73,7 @@
     </footer>
   </main>  
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-  <script src="./script/scripts.js" type="module"></script>
+  <script src="./script/index.js" type="module"></script>
 </body>
 
 </html>

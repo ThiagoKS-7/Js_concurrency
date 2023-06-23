@@ -1,4 +1,5 @@
 .dadosDolar,
+.dadosEth,
 .dadosIene {
     margin: 3em auto;
     padding: 2em;
@@ -25,25 +26,27 @@
     height: 40px;
 }
 
-.grafico__ilustracao-dolar {
-    background-image: url('../imagens/cifrao.png');
+.grafico__ilustracao-eth {
+    margin-right: 0.3em;
 }
 
 .grafico__ilustracao-iene {
     background-image: url('../imagens/iene.png');
 }
-
-.grafico__titulo h2 {
+.investimentos {
+    border-left: 2px solid rgba(194, 192, 192, 0.795);
+    padding-left: 1em;
+}
+.grafico__titulo h2, .investimentos h2 {
     color: var(--cinza);
     font-weight: 700;
-    font-size: 24px;
+    font-size: 1em;
 }
-
 .investimentos__lista {
-    margin: 2em;
+    margin: 1em;
     color: var(--cinza);
 }
 
 .investimentos__lista li {
-    margin: 1em 0;
+    font-size: 0.8em;
 }
