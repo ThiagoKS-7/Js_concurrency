@@ -1,8 +1,7 @@
 <p align="center">
   <a href="" rel="noopener">
- <img height=400px src="https://github.com/ThiagoKS-7/Js_concurrency/assets/83460816/9fffcc75-fee9-468a-8424-6a666fa81edd" alt="Project logo"></a>
+ <img height=400px src="https://github.com/ThiagoKS-7/Js_concurrency/assets/83460816/39239dcd-3c91-4b3a-8669-88d833d02f8b" alt="Project logo"></a>
 </p>
-
 
 <h3 align="center">Javascript Concurrency example</h3>
 
